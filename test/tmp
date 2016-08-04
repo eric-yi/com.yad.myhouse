@@ -1,0 +1,242 @@
+2016-08-04 22:53:59 extract_soufan.py[line:14] DEBUG total string : 共6页
+2016-08-04 22:53:59 extract_soufan.py[line:16] DEBUG total = 6
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |低层(共6层)
+                            |南向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4f4e\u5c42(\u51716\u5c42)\r', u'                            |\u5357\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 高楼层景观房,小区景观位置,满五年税费低,价格可谈, link: /chushou/3_257654883.htm, rooms: 2.200000, policy: None, orientation: 南向, storey: 低层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共11层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517111\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 地铁房+临仲盛公园+上盖天荟广场+莘庄地王;精装全送带产权车位, link: /chushou/3_257643690.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共14层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517114\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 黄金楼层,精装两房,小区中央位置,临近地铁,闵行重点教育房!, link: /chushou/3_257755031.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |高层(共14层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u9ad8\u5c42(\u517114\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 代理房源,产证满五少税费,小区景观房,紧邻商场,急售, link: /chushou/3_256665875.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 高层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共6层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u51716\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 近地铁一号线 满五年税费少 精装两房 低于市价20万 买好三房急售, link: /chushou/3_257693840.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共11层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517111\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 新出全朝南户型,拎包入住送车位,性价比高,中心位置,近地铁!, link: /chushou/3_257521938.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共13层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517113\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 南北通户型.精装大两房.毗邻1号线.配套设施完善.交通便捷.光照好, link: /chushou/3_256849431.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共14层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517114\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 名都新城精装大两房 黄金楼层 满五年税少 地铁房交通便利诚意卖, link: /chushou/3_257434976.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共17层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517117\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 新出笋盘 莘庄重点南北通两房 临近公园 紧邻1.5号线,重点教育房, link: /chushou/3_257836295.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |高层(共18层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u9ad8\u5c42(\u517118\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 名都新城精装大两房 黄金楼层 满五年税少 地铁房交通便利诚意卖, link: /chushou/3_256860692.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 高层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共14层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517114\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 名都新城四期!站在阳台上看地铁!南北通绝佳户型!接受置换!, link: /chushou/3_256999913.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |高层(共18层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u9ad8\u5c42(\u517118\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 名都新城精装大两房 黄金楼层 满五年税少 地铁房交通便利诚意卖, link: /chushou/3_257252001.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 高层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共14层)
+                            |南向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517114\u5c42)\r', u'                            |\u5357\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 电梯房景观楼层,小区景观尽收眼底,近地铁,进口家具家电全送。, link: /chushou/3_257008637.htm, rooms: 2.200000, policy: None, orientation: 南向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |低层(共16层)
+                            |南向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4f4e\u5c42(\u517116\u5c42)\r', u'                            |\u5357\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 地铁南广场 精装电梯两房 业主急售!看房有钥匙!, link: /chushou/3_252837042.htm, rooms: 2.200000, policy: None, orientation: 南向, storey: 低层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共6层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u51716\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 品质地铁小两房,精装两房,南北通,附送飘窗,诚意急售, link: /chushou/3_257458938.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共6层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u51716\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 优质地铁小两房,精装两房,南北通户型,附送飘窗,诚意急出售!, link: /chushou/3_256492111.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共15层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517115\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 名都四期近地铁200米,婚房装修,满五年税费少,送车位买好急售, link: /chushou/3_256868304.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共14层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517114\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 名都品质小区,南北通户型,近莘庄地铁,仲盛商城,送产权车位。, link: /chushou/3_257772126.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共17层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517117\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 新出笋盘 莘庄重点南北通两房 临近公园 紧邻1.5号线,重点教育房, link: /chushou/3_257836292.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共15层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517115\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 地铁口精装大两房,全明户型,超性价比,得房率高,近仲盛,急售, link: /chushou/3_256989357.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共12层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517112\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 品质小区,满五年税费低,精装送车位,房东急售,近地铁一号线!, link: /chushou/3_257258449.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共6层)
+                            |南向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u51716\u5c42)\r', u'                            |\u5357\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 新出多层2房,得房率高,位置好,全朝南精装送车位,近一号线!, link: /chushou/3_257042105.htm, rooms: 2.200000, policy: None, orientation: 南向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共12层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517112\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 品质小区,满五年税费低,精装送车位,房东急售,近地铁一号线!, link: /chushou/3_257258448.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共14层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517114\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 品质小区,满五年税费低,南北通房型正,性价比高,近地铁一号线, link: /chushou/3_257891504.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共17层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517117\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 新出笋盘 莘庄重点南北通两房 临近公园 紧邻1.5号线,重点教育房, link: /chushou/3_257836298.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |低层(共11层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4f4e\u5c42(\u517111\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 地铁房、,居家精装修,高楼层,视野开阔,通风好、光照强, link: /chushou/3_256125601.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 低层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |高层(共11层)
+                            |南北向
+                        |建筑年代：2001
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u9ad8\u5c42(\u517111\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2001']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 普通住宅免营业税 地铁房 近百盛 精装修 产证满五年 送车位, link: /chushou/3_257085242.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 高层, building: , age: 2001, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |中层(共14层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4e2d\u5c42(\u517114\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 品质小区,满五年税费低,南北通房型正,性价比高,近地铁一号线, link: /chushou/3_257891505.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 中层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |高层(共12层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u9ad8\u5c42(\u517112\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 莘庄地铁口 品质小区 临仲盛家乐福 地铁1/5号线 房东置换诚意卖, link: /chushou/3_256866753.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 高层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1
+2016-08-04 22:53:59 extract_soufan.py[line:35] DEBUG rooms_str: 2室2厅
+                        
+                            |低层(共17层)
+                            |南北向
+                        |建筑年代：2002
+2016-08-04 22:53:59 extract_soufan.py[line:38] DEBUG rooms_str: [u'2\u5ba42\u5385\r', u'                        \r', u'                            |\u4f4e\u5c42(\u517117\u5c42)\r', u'                            |\u5357\u5317\u5411\r', u'                        |\u5efa\u7b51\u5e74\u4ee3\uff1a2002']
+2016-08-04 22:53:59 extract_soufan.py[line:42] DEBUG 
+2016-08-04 22:53:59 extract_soufan.py[line:57] DEBUG house : name: None, description: 莘庄南 新挂牌 莘城公寓精装南北通大两房 房型正气 紧邻1号线, link: /chushou/3_257256905.htm, rooms: 2.200000, policy: None, orientation: 南北向, storey: 低层, building: , age: 2002, address: None, agent: None, covered area: -1, used area: -1, total price: -1, centiare price: -1

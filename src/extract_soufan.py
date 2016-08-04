@@ -32,20 +32,55 @@ def convert(house_elements):
 
         house_rooms_element = house_element.find('p', {'class' : 'mt12'})
         rooms_str = house_rooms_element.get_text().strip()
-        logger.debug('rooms_str: %s' % (rooms_str))
         rooms = float(rooms_str[0]) + float(rooms_str[2]) / 10
         rooms_array = rooms_str.split('\n')
-        logger.debug('rooms_str: %s' % (rooms_array))
-        rooms_array[2]
-        rooms_array[3]
-        logger.debug('rooms_array[4] %s' % (rooms_array[4]))
+        _tmp = rooms_array[2].strip()
+        storey = _tmp[1:3]
+        building = int(_tmp.split('层(共')[1].split('层)')[0])
+        orientation = rooms_array[3].strip()[1:]
         age = int(rooms_array[4].split('：')[1])
 
+        house_sub_element = house_element.find('p', {'class' : 'mt10'})
+        name = house_sub_element.a['title']
+        village_name = house_sub_element.a.strong.get_text()
+        village_phase = house_sub_element.a.get_text().strip(village_name)
+        address = house_sub_element.get_text().strip(house_sub_element.a.get_text()).strip()
+
+        house_sub_element = house_element.find('p', {'class' : 'gray6 mt10'})
+        agent = house_sub_element.a.get_text().strip()
+
+        house_sub_element = house_element.find('div', {'class' : 'pt4 floatl'})
+        _policy = house_sub_element.find('span', {'class' : 'colorGreen note'})
+        if _policy:
+            policy = _policy.get_text().strip()
+        else:
+            policy = ''
+
+
+        house_sub_element = house_element.find('div', {'class' : 'area alignR'}).find_all('p')
+        covered_area = int(house_sub_element[0].get_text().strip())
+
+        house_sub_element = house_element.find('div', {'class' : 'moreInfo'})
+        total_price = int(house_sub_element.find('span', {'class' : 'price'}).get_text().strip()) * 10000
+        centiare_price = int(house_sub_element.find('p', {'class' : 'danjia alignR mt5'}).get_text().strip().strip('元/'))
+
         _house_dict = {
+            'name': name,
+            'village_name': village_name,
+            'village_phase': village_phase,
             'link': link,
             'description': description,
             'rooms': rooms,
-            'age': age
+            'age': age,
+            'orientation': orientation,
+            'storey': storey,
+            'building': building,
+            'address': address,
+            'agent': agent,
+            'policy': policy,
+            'covered_area': covered_area,
+            'total_price': total_price,
+            'centiare_price': centiare_price
         }
         house = House(_house_dict)
         logger.debug('house : %s' % (house))

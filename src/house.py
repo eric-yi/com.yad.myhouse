@@ -6,12 +6,14 @@ from __init__ import *
 class House:
     def __init__(self, _house):
         self.name = None
+        self.village_name = None
+        self.village_phase = None
         self.description = None
         self.link = None
         self.rooms = -1
         self.policy = None
         self.orientation = None
-        self.storey = -1
+        self.storey = None
         self.building = None
         self.age = -1
         self.address = None
@@ -23,8 +25,14 @@ class House:
 
 
         if 'name' in _house:
-            # 小区名称
+            # 名称
             self.name = _house['name']
+        if 'village_name' in _house:
+            # 小区名称
+            self.village_name = _house['village_name']
+        if 'village_phase' in _house:
+            # 小区几期
+            self.village_phase = _house['village_phase']
         if 'description' in _house:
             # 描述
             self.description = _house['description']
@@ -54,7 +62,7 @@ class House:
             self.address = _house['address']
         if 'agent' in _house:
             # 中介
-            self.description = _house['agent']
+            self.agent = _house['agent']
         if 'covered_area' in _house:
             # 建筑面积
             self.covered_area = _house['covered_area']
@@ -70,11 +78,14 @@ class House:
 
 
     def __str__(self):
-        return ('name: %s, description: %s, link: %s, rooms: %f, policy: %s, ' +
-                'orientation: %s, storey: %d, building: %s, age: %d, ' +
+        return ('name: %s, village_name: %s, village_name: %s, description: %s, ' +
+                'link: %s, rooms: %f, policy: %s, ' +
+                'orientation: %s, storey: %s, building: %s, age: %d, ' +
                 'address: %s, agent: %s, covered area: %d, used area: %d, ' +
                 'total price: %d, centiare price: %d') % (
                     self.name,
+                    self.village_name,
+                    self.village_phase,
                     self.description,
                     self.link,
                     self.rooms,
