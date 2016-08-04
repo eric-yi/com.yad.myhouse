@@ -3,7 +3,7 @@
 log
 logs
 out
-.*pyc
+*.pyc
 
 # OS generated files #
 *.swp
