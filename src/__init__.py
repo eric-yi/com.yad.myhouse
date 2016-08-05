@@ -7,7 +7,10 @@ sys.setdefaultencoding("utf-8")
 import os
 import logging.config
 
-log_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'conf', 'log.ini')
-import util
-logger, root_logger = util.init_log(log_path)
+# constants
+INI_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'ini')
+LOG_INI_PATH = os.path.join(INI_PATH, 'log.ini')
+MAIN_INI_PATH = os.path.join(INI_PATH, 'myhouse.ini')
 
+import util
+logger, root_logger = util.init_log(LOG_INI_PATH)

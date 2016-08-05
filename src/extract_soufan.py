@@ -5,8 +5,17 @@ from __init__ import *
 from bs4 import BeautifulSoup
 import re
 from house import House
+from house import HousePage
 
-def extract_first_page(html):
+def extract(html):
+    total, next_link, houses = extract_page(html)
+    return HousePage({
+        'total': total,
+        'next_link': next_link,
+        'houses': houses
+        })
+
+def extract_page(html):
     soup = BeautifulSoup(html)
     # get total pages
     total_element = soup.find('span', {'class' : 'txt'})
@@ -19,7 +28,11 @@ def extract_first_page(html):
     house_elements = soup.find_all('dl', id=re.compile('^list_\w+_\d+'))
     houses = convert(house_elements)
 
-    return total, houses
+    link_element = soup.find(id='PageControl1_hlk_next')
+    next_link = link_element['href']
+    #logger.debug('next_link: %s' % (next_link))
+
+    return total, next_link, houses
 
 def convert(house_elements):
     houses = []
@@ -85,6 +98,5 @@ def convert(house_elements):
         house = House(_house_dict)
         logger.debug('house : %s' % (house))
         houses.append(house)
-
 
     return houses

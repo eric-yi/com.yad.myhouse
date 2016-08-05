@@ -3,6 +3,20 @@
 
 from __init__ import *
 
+class HousePage:
+    def __init__(self, _page):
+        self.total = -1
+        self.next_link = None
+        self.houses = []
+
+        if 'total' in _page:
+            self.total = _page['total']
+        if 'next_link' in _page:
+            self.next_link = _page['next_link']
+        if 'houses' in _page:
+            self.houses = _page['houses']
+
+
 class House:
     def __init__(self, _house):
         self.name = None

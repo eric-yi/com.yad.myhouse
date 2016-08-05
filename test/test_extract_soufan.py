@@ -8,11 +8,11 @@ class TestCase(unittest.TestCase):
     def test_welcome(self):
         self.assertTrue(True)
 
-    def test_extract_first_page(self):
+    def test_extract_page(self):
         url = 'http://esf.sh.fang.com/house/g22-j280-k2100-l3010-kw%c3%fb%b6%bc%d0%c2%b3%c7'
         _, html = spider.get(url)
         # test for extract
-        total, houses = extract_soufan.extract_first_page(html)
+        total, next_link, houses = extract_soufan.extract_page(html)
         self.assertIsNotNone(total)
         self.assertIsNotNone(houses)
         self.assertTrue(int(total) > 0)
@@ -33,6 +33,16 @@ class TestCase(unittest.TestCase):
             self.assertTrue(house.total_price > 1000000)
             self.assertTrue(house.centiare_price != -1)
             self.assertTrue(house.centiare_price > 1000)
+        self.assertIsNotNone(next_link)
 
+    def test_extract(self):
+        url = 'http://esf.sh.fang.com/house/g22-j280-k2100-l3010-kw%c3%fb%b6%bc%d0%c2%b3%c7'
+        _, html = spider.get(url)
+        # test for extract
+        house_page = extract_soufan.extract(html)
+        self.assertIsNotNone(house_page)
+        self.assertTrue(house_page.total > 0)
+        self.assertTrue(house_page.next_link > 0)
+        self.assertTrue(len(house_page.houses) > 0)
 
 unittest.main()
