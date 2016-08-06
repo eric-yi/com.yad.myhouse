@@ -1,4 +1,5 @@
 # source and project #
+/stores
 /target
 log
 logs

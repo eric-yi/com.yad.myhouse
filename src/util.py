@@ -3,6 +3,8 @@
 
 from __init__ import *
 import ConfigParser
+from datetime import datetime
+import codecs
 
 def init_log(log_path):
     logging.config.fileConfig(log_path)
@@ -28,4 +30,14 @@ def get_ini_value(ini, option, key, default):
     except:
         pass
     return default
+
+def current_time_str():
+    return datetime.now().strftime('%Y%m%d%H%M%S')
+
+def write_store(filename, contents):
+    filepath = os.path.join(STORE_PATH, filename)
+    with codecs.open(filepath, 'w', 'utf-8') as file:
+        file.write(contents)
+        file.close()
+
 

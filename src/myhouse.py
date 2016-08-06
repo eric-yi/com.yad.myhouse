@@ -9,12 +9,15 @@ main_ini = util.load_ini(MAIN_INI_PATH)
 class Source:
     def __init__(self, _source):
         self.name = None
-        self.root_linke = None
+        self.module = None
+        self.root_link = None
         self.keys = None
         self.api = None
 
         if 'name' in _source:
             self.name = _source['name']
+        if 'module' in _source:
+            self.module = _source['module']
         if 'root_link' in _source:
             self.root_link = _source['root_link']
         if 'keys' in _source:
@@ -28,10 +31,12 @@ class MyHouse:
         _sources = util.get_ini_value(main_ini, 'myhouse', 'sources', '')
         self.sources = []
         for _source in _sources.split(','):
-            name = util.get_ini_value(main_ini, _source.strip(), 'name', '')
+            name = _source.strip()
+            module = util.get_ini_value(main_ini, _source.strip(), 'module', '')
             root_link = util.get_ini_value(main_ini, _source.strip(), 'root_link', '')
             keys = util.get_ini_value(main_ini, _source.strip(), 'key', '')
             api = util.get_ini_value(main_ini, _source.strip(), 'api', '')
-            source = Source({'name': name, 'root_link': root_link, 'keys': keys, 'api': api})
+            source = Source({'name': name, 'module': module, 'root_link': root_link, 'keys': keys, 'api': api})
             self.sources.append(source)
 
+myhouse = MyHouse()

@@ -112,6 +112,6 @@ def convert(house_elements):
         }
         house = House(_house_dict)
         logger.debug('house : %s' % (house))
-        houses.extend(house)
+        houses.append(house)
 
     return houses

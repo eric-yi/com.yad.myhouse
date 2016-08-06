@@ -16,6 +16,16 @@ class HousePage:
         if 'houses' in _page:
             self.houses = _page['houses']
 
+    def to_dict(self):
+        _houses = []
+        for house in self.houses:
+            #logger.debug(house.to_dict())
+            _houses.append(house.to_dict())
+        return {
+            'total': self.total,
+            'next_link': self.next_link,
+            'houses': _houses
+        }
 
 class House:
     def __init__(self, _house):
@@ -36,7 +46,6 @@ class House:
         self.used_area = -1
         self.total_price = -1
         self.centiare_price = -1
-
 
         if 'name' in _house:
             # 名称
@@ -90,29 +99,48 @@ class House:
             # 每平价格
             self.centiare_price = _house['centiare_price']
 
-
     def __str__(self):
-        return ('name: %s, village_name: %s, village_name: %s, description: %s, ' +
-                'link: %s, rooms: %f, policy: %s, ' +
-                'orientation: %s, storey: %s, building: %s, age: %d, ' +
-                'address: %s, agent: %s, covered area: %d, used area: %d, ' +
-                'total price: %d, centiare price: %d') % (
-                    self.name,
-                    self.village_name,
-                    self.village_phase,
-                    self.description,
-                    self.link,
-                    self.rooms,
-                    self.policy,
-                    self.orientation,
-                    self.storey,
-                    self.building,
-                    self.age,
-                    self.address,
-                    self.agent,
-                    self.covered_area,
-                    self.used_area,
-                    self.total_price,
-                    self.centiare_price
-                )
+        sb = []
+        for key in self.__dict__:
+            sb.append("{key}: '{value}'".format(key=key, value=self.__dict__[key]))
+
+        return ', '.join(sb)
+
+    def __repr__(self):
+        return self.__str__()
+
+    def to_dict(self):
+        _dict = {}
+        for key in self.__dict__:
+            value = self.__dict__[key]
+           # if type(value) == unicode:
+           #     value = str(value.encode('utf-8'))
+           #     logger.debug(value)
+            _dict[key] = str(value)
+        return _dict
+
+#    def __str__(self):
+#        return ('name: %s, village_name: %s, village_name: %s, description: %s, ' +
+#                'link: %s, rooms: %f, policy: %s, ' +
+#                'orientation: %s, storey: %s, building: %s, age: %d, ' +
+#                'address: %s, agent: %s, covered area: %d, used area: %d, ' +
+#                'total price: %d, centiare price: %d') % (
+#                    self.name,
+#                    self.village_name,
+#                    self.village_phase,
+#                    self.description,
+#                    self.link,
+#                    self.rooms,
+#                    self.policy,
+#                    self.orientation,
+#                    self.storey,
+#                    self.building,
+#                    self.age,
+#                    self.address,
+#                    self.agent,
+#                    self.covered_area,
+#                    self.used_area,
+#                    self.total_price,
+#                    self.centiare_price
+#                )
 
